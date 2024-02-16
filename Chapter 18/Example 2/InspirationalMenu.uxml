@@ -1,0 +1,15 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/ButtonStyle.uss?fileID=7433441132597879392&amp;guid=dbd29c1f477459b4fad60109d0cb14d1&amp;type=3#ButtonStyle" />
+    <ui:VisualElement style="flex-grow: 1; align-items: center; justify-content: center; background-image: url(&apos;project://database/Assets/pinkBackground.png?fileID=21300000&amp;guid=da0ab641a1e7cfe4cae1feb343fc6041&amp;type=3#pinkBackground&apos;);">
+        <ui:VisualElement style="height: 459px; width: 645px; background-color: rgb(255, 239, 239); border-left-color: rgb(255, 255, 255); border-right-color: rgb(255, 255, 255); border-top-color: rgb(255, 255, 255); border-bottom-color: rgb(255, 255, 255); border-left-width: 5px; border-right-width: 5px; border-top-width: 5px; border-bottom-width: 5px; border-top-left-radius: 6px; border-bottom-left-radius: 6px; border-top-right-radius: 6px; border-bottom-right-radius: 6px; flex-direction: row;">
+            <ui:VisualElement style="height: 447px; width: 142px; align-items: center; justify-content: center;">
+                <ui:Button text="Charm Me" display-tooltip-when-elided="true" name="CharmButton" class="button-class" />
+                <ui:Button text="Inspire Me" display-tooltip-when-elided="true" name="InspireButton" class="button-class" />
+            </ui:VisualElement>
+            <ui:VisualElement style="flex-grow: 1;">
+                <ui:VisualElement name="CatPic" style="height: 139px; width: 167px; position: absolute; top: 88px; left: 173px;" />
+                <ui:Label tabindex="-1" display-tooltip-when-elided="true" name="InspirationalQuote" style="position: absolute; height: 83px; width: 486px; top: 363px; left: 1px; color: rgb(255, 155, 200); -unity-font-style: bold; font-size: 15px; white-space: normal;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

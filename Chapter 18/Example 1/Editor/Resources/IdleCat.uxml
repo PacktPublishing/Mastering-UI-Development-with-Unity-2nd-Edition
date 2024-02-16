@@ -1,0 +1,5 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement style="flex-grow: 1; align-items: center; justify-content: center; transform-origin: center; -unity-background-image-tint-color: rgba(255, 255, 255, 0); background-color: rgb(190, 141, 141);">
+        <ui:Button display-tooltip-when-elided="true" name="CatButton" style="background-image: url(&apos;project://database/Assets/Editor/Resources/idleCat.png?fileID=790867914&amp;guid=85fd814e3f6694743bba1bfc19fdec45&amp;type=3#idleCat_0&apos;); width: 64px; height: 64px; border-left-color: rgba(255, 255, 255, 0); border-right-color: rgba(255, 255, 255, 0); border-top-color: rgba(255, 255, 255, 0); border-bottom-color: rgba(255, 255, 255, 0); background-color: rgba(88, 88, 88, 0);" />
+    </ui:VisualElement>
+</ui:UXML>
